@@ -79,21 +79,21 @@ class ChessGame:
     def run(self):
         while True:
             self.show_menu()
-            choice = input("Select an option: ").strip()
+            option = input("Select an option: ").strip()
 
-            if choice == '1':
+            if option == '1':
                 self.input_move()
-            elif choice == '2':
+            elif option == '2':
                 self.history.list_moves()
-            elif choice == '3':
+            elif option == '3':
                 self.history.replay()
-            elif choice == '4':
+            elif option == '4':
                 filename = input("Enter filename to save: ").strip()
                 self.history.save_to_file(filename)
-            elif choice == '5':
+            elif option == '5':
                 filename = input("Enter filename to load: ").strip()
                 self.history.load_from_file(filename)
-            elif choice == '6':
+            elif option == '6':
                 print("Exiting...")
                 break
             else:

@@ -1,4 +1,3 @@
-White: e4
-Black: Nf3
-White: D5
-Black: H7
+White: e8
+Black: b2
+White: c9
