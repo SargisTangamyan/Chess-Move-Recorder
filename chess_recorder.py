@@ -1,6 +1,5 @@
-import os
 import time
-from typing import List, Optional
+from typing import List
 
 
 class Move:
